@@ -1,0 +1,26 @@
+{
+  "name": "disbot",
+  "version": "1.0.0",
+  "description": "Forward messages from Discord channels to a Telegram bot so you never miss important notifications.",
+  "main": "src/index.js",
+  "private": true,
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "discord",
+    "telegram",
+    "bridge",
+    "notifications"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^4.4.3",
+    "discord.js-selfbot-v13": "^3.7.1",
+    "dotenv": "^17.4.2"
+  }
+}
